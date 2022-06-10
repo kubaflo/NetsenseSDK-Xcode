@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E7F530BCB3D78E3EEF51244 /* Pods_NetsenseiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C82CCFFD099041888B63D /* Pods_NetsenseiOS.framework */; };
+		D7B0FEC828534BA300699D1D /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B0FEC728534BA300699D1D /* AppTrackingTransparency.framework */; };
+		D7CCECB9285342F800D7E5CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CCECB8285342F800D7E5CA /* AppDelegate.swift */; };
+		D7CCECBB285342F800D7E5CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CCECBA285342F800D7E5CA /* SceneDelegate.swift */; };
+		D7CCECBD285342F800D7E5CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CCECBC285342F800D7E5CA /* ViewController.swift */; };
+		D7CCECC0285342F800D7E5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CCECBE285342F800D7E5CA /* Main.storyboard */; };
+		D7CCECC2285342FA00D7E5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CCECC1285342FA00D7E5CA /* Assets.xcassets */; };
+		D7CCECC5285342FA00D7E5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CCECC3285342FA00D7E5CA /* LaunchScreen.storyboard */; };
+		D7CCECD2285349C100D7E5CA /* SASGMAAdapter in Resources */ = {isa = PBXBuildFile; fileRef = D7CCECD0285349C100D7E5CA /* SASGMAAdapter */; };
+		D7CCECD3285349C100D7E5CA /* AdformAdvertisingDFPAdapter in Resources */ = {isa = PBXBuildFile; fileRef = D7CCECD1285349C100D7E5CA /* AdformAdvertisingDFPAdapter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15C3B9CE042471E2FA69D1D2 /* Pods-NetsenseiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetsenseiOS.debug.xcconfig"; path = "Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C82CCFFD099041888B63D /* Pods_NetsenseiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetsenseiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B0FEC728534BA300699D1D /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		D7CCECB5285342F800D7E5CA /* NetsenseiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetsenseiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CCECB8285342F800D7E5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7CCECBA285342F800D7E5CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7CCECBC285342F800D7E5CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7CCECBF285342F800D7E5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7CCECC1285342FA00D7E5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7CCECC4285342FA00D7E5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7CCECC6285342FA00D7E5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CCECD0285349C100D7E5CA /* SASGMAAdapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SASGMAAdapter; sourceTree = "<group>"; };
+		D7CCECD1285349C100D7E5CA /* AdformAdvertisingDFPAdapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdformAdvertisingDFPAdapter; sourceTree = "<group>"; };
+		F4A4372C55639FBBD68A5990 /* Pods-NetsenseiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetsenseiOS.release.xcconfig"; path = "Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7CCECB2285342F800D7E5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7F530BCB3D78E3EEF51244 /* Pods_NetsenseiOS.framework in Frameworks */,
+				D7B0FEC828534BA300699D1D /* AppTrackingTransparency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48202A0C4E7418172A383166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7B0FEC728534BA300699D1D /* AppTrackingTransparency.framework */,
+				BE1C82CCFFD099041888B63D /* Pods_NetsenseiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F40ACA5758ABEB6FB2021C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15C3B9CE042471E2FA69D1D2 /* Pods-NetsenseiOS.debug.xcconfig */,
+				F4A4372C55639FBBD68A5990 /* Pods-NetsenseiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7CCECAC285342F800D7E5CA = {
+			isa = PBXGroup;
+			children = (
+				D7CCECB7285342F800D7E5CA /* NetsenseiOS */,
+				D7CCECB6285342F800D7E5CA /* Products */,
+				9F40ACA5758ABEB6FB2021C9 /* Pods */,
+				48202A0C4E7418172A383166 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CCECB6285342F800D7E5CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7CCECB5285342F800D7E5CA /* NetsenseiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CCECB7285342F800D7E5CA /* NetsenseiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7CCECD1285349C100D7E5CA /* AdformAdvertisingDFPAdapter */,
+				D7CCECD0285349C100D7E5CA /* SASGMAAdapter */,
+				D7CCECB8285342F800D7E5CA /* AppDelegate.swift */,
+				D7CCECBA285342F800D7E5CA /* SceneDelegate.swift */,
+				D7CCECBC285342F800D7E5CA /* ViewController.swift */,
+				D7CCECBE285342F800D7E5CA /* Main.storyboard */,
+				D7CCECC1285342FA00D7E5CA /* Assets.xcassets */,
+				D7CCECC3285342FA00D7E5CA /* LaunchScreen.storyboard */,
+				D7CCECC6285342FA00D7E5CA /* Info.plist */,
+			);
+			path = NetsenseiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7CCECB4285342F800D7E5CA /* NetsenseiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CCECC9285342FA00D7E5CA /* Build configuration list for PBXNativeTarget "NetsenseiOS" */;
+			buildPhases = (
+				8D8AB1F805B499A26ED3063D /* [CP] Check Pods Manifest.lock */,
+				D7CCECB1285342F800D7E5CA /* Sources */,
+				D7CCECB2285342F800D7E5CA /* Frameworks */,
+				D7CCECB3285342F800D7E5CA /* Resources */,
+				4DBA125E274EDD6CD07629D5 /* [CP] Embed Pods Frameworks */,
+				F2BD6A83A04A15C52B1A070F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetsenseiOS;
+			productName = NetsenseiOS;
+			productReference = D7CCECB5285342F800D7E5CA /* NetsenseiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7CCECAD285342F800D7E5CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D7CCECB4285342F800D7E5CA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = D7CCECB0285342F800D7E5CA /* Build configuration list for PBXProject "NetsenseiOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7CCECAC285342F800D7E5CA;
+			productRefGroup = D7CCECB6285342F800D7E5CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7CCECB4285342F800D7E5CA /* NetsenseiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7CCECB3285342F800D7E5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CCECC5285342FA00D7E5CA /* LaunchScreen.storyboard in Resources */,
+				D7CCECC2285342FA00D7E5CA /* Assets.xcassets in Resources */,
+				D7CCECD2285349C100D7E5CA /* SASGMAAdapter in Resources */,
+				D7CCECD3285349C100D7E5CA /* AdformAdvertisingDFPAdapter in Resources */,
+				D7CCECC0285342F800D7E5CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DBA125E274EDD6CD07629D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8AB1F805B499A26ED3063D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetsenseiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BD6A83A04A15C52B1A070F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetsenseiOS/Pods-NetsenseiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7CCECB1285342F800D7E5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CCECBD285342F800D7E5CA /* ViewController.swift in Sources */,
+				D7CCECB9285342F800D7E5CA /* AppDelegate.swift in Sources */,
+				D7CCECBB285342F800D7E5CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7CCECBE285342F800D7E5CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7CCECBF285342F800D7E5CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7CCECC3285342FA00D7E5CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7CCECC4285342FA00D7E5CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7CCECC7285342FA00D7E5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7CCECC8285342FA00D7E5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7CCECCA285342FA00D7E5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C3B9CE042471E2FA69D1D2 /* Pods-NetsenseiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7Z9N988H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetsenseiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kubaflo.NetsenseiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7CCECCB285342FA00D7E5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A4372C55639FBBD68A5990 /* Pods-NetsenseiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G7Z9N988H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetsenseiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kubaflo.NetsenseiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7CCECB0285342F800D7E5CA /* Build configuration list for PBXProject "NetsenseiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CCECC7285342FA00D7E5CA /* Debug */,
+				D7CCECC8285342FA00D7E5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CCECC9285342FA00D7E5CA /* Build configuration list for PBXNativeTarget "NetsenseiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CCECCA285342FA00D7E5CA /* Debug */,
+				D7CCECCB285342FA00D7E5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7CCECAD285342F800D7E5CA /* Project object */;
+}
