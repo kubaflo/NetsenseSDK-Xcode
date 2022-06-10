@@ -92,6 +92,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 - 3.) Add requestConsent() and loadForm() methods to your project and call requestConsent() from viewDidLoad() method
 ```
 import UserMessagingPlatform
+import AdColonyAdapter
+import AppLovinSDK
+import IASDKCore
+import InMobiAdapter
+import MyTargetSDK
+import Tapjoy
+import UnityAds
+import UnityAdapter
+import VungleSDK
+import VungleAdapter
 ...
 
 override func viewDidLoad() {
@@ -99,7 +109,25 @@ override func viewDidLoad() {
     requestConsent()
 }
 
-func requestConsent() {
+    func requestConsent() {
+        
+        let options = GADMediationAdapterAdColony.appOptions
+        options?.setPrivacyFrameworkOfType(ADC_GDPR, isRequired: true)
+        options?.setPrivacyConsentString("1", forType: ADC_GDPR)
+        ALPrivacySettings.setHasUserConsent(true)
+        IASDKCore.sharedInstance().gdprConsent=IAGDPRConsentType.given
+        IASDKCore.sharedInstance().gdprConsentString = "myGdprConsentString"
+        var consentObject: [String : String] = [:]
+        consentObject["gdpr"] = "1"
+        consentObject[IM_GDPR_CONSENT_AVAILABLE] = "true"
+        GADMInMobiConsent.updateGDPRConsent(consentObject)
+        MTRGPrivacy.setUserConsent(true)
+        Tapjoy.setUserConsent("1")
+        let gdprConsentMetaData = UADSMetaData()
+        gdprConsentMetaData.set("gdpr.consent", value: NSNumber(value: true))
+        gdprConsentMetaData.commit()
+        VungleRouterConsent.update(VungleConsentStatus.accepted)
+        
         // Create a UMPRequestParameters object.
         let parameters = UMPRequestParameters()
         // Set tag for under age of consent. Here false means users are not under age.
